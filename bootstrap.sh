@@ -2,7 +2,7 @@
 
 if type apt-get &> /dev/null ; then
     PKGR=apt-get
-elif type yum > &/dev/null ; then
+elif type yum &> /dev/null ; then
     PKGR=yum
 else
     echo "No package manager"
