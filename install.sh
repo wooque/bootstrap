@@ -14,7 +14,7 @@ sudo $PKGR -y install zsh git vim htop ranger highlight
 chsh -s /usr/bin/zsh
 
 git init
-git remote add origin https://github.com/wooque/configs
+git remote add origin https://github.com/wooque/dotfiles
 git fetch --all
 git reset --hard origin/minimal
 git checkout minimal
